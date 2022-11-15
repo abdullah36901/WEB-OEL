@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Dashboard.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <img src="https://scontent.fkhi22-1.fna.fbcdn.net/v/t1.6435-9/72472942_132912998096357_2048147453944791040_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=1coq4pZr9y8AX_pTqL2&_nc_ht=scontent.fkhi22-1.fna&oh=00_AfDkhx1j4u5ApU0FvSZLMym9Kl7aVjK7SsmzB0xsrCmjNw&oe=639B1F97" align="left" style="width:100px;height:100px;"><br>
+  <h1 align="center">Welcome to Rently!</h1>
+<div class="w3-bar w3-black">
+  <a href="#" class="w3-bar-item w3-button w3-mobile">DashBoard</a>
+  <a href="Pay-CollectRent.html" class="w3-bar-item w3-button w3-mobile">Pay/Collect Rent</a>
+</div>
+<div class="tab">
+  <button class="tablinks" onclick="openEvent(event, 'one')" id="defaultOpen">Products for Rent</button>
+  <button class="tablinks" onclick="openEvent(event, 'two')">My Products to Rent</button>
+  <button class="tablinks" onclick="openEvent(event, 'three')">My Booked/Rented Products</button>
+</div>
+<div id="one" class="tabcontent">
+  <h3>Products for Rent</h3>
+  <br>
+<table align="center">
+  <tr>
+    <td>
+      <div class="card" data-name="Mehran" data-price="100" data-id="0">
+  <img src="https://cache2.pakwheels.com/system/car_generation_pictures/2873/original/Suzuki_Mehran_2012.jpg?1444111663" style="width:100%">
+  <h1>Suzuki Mehran</h1>
+  <p class="price">$100</p>
+  <p><button>Rent</button></p>
+</div>
+    </td>
+     <td>
+      <div class="card" data-name="Alto" data-price="150" data-id="1">
+  <img src="https://cache4.pakwheels.com/system/car_generation_pictures/6013/original/Suzuki_Alto_-_PNG.png?1635945100" style="width:100%">
+  <h1>Suzuki Alto</h1>
+  <p class="price">$150</p>
+  <p><button>Rent</button></p>
+</div>
+    </td>
+     <td>
+      <div class="card" data-name="Corolla" data-price="200" data-id="2">
+  <img src="https://oils-finder.com/galery/350.jpg" style="width:100%">
+  <h1>Toyota Corolla</h1>
+  <p class="price">$200</p>
+  <p><button>Rent</button></p>
+</div>
+    </td>
+  </tr>
+  <tr>
+     <td>
+      <div class="card" data-name="Civic" data-price="250" data-id="3">
+  <img src="https://crdms.images.consumerreports.org/c_lfill,w_470,q_auto,f_auto/prod/cars/chrome/white/2021HOC020061_1280_01" style="width:100%">
+  <h1>Honda Civic</h1>
+  <p class="price">$250</p>
+  <p><button>Rent</button></p>
+</div>
+    </td>
+     <td>
+      <div class="card" data-name="Prado" data-price="300" data-id="4">
+  <img src="https://cache1.pakwheels.com/system/car_generation_pictures/5245/original/prado.jpg?1595594818" style="width:100%">
+  <h1>Toyota Prado</h1>
+  <p class="price">$300</p>
+  <p><button>Rent</button></p>
+</div>
+    </td>
+     <td>
+      <div class="card" data-name="Hilux" data-price="400" data-id="5">
+  <img src="https://cache2.pakwheels.com/system/car_generation_pictures/6006/original/Revo_-_PNG.png?1635483853" style="width:100%">
+  <h1>Toyota Hilux</h1>
+  <p class="price">$400</p>
+  <p><button>Rent</button></p>
+</div>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<div id="two" class="tabcontent">
+  <h3>My Products to Rent</h3>
+ <table align="center">
+  <tr>
+    <td>
+      <div class="card" data-name="Mehran" data-price="100" data-id="0">
+  <img src="https://cache2.pakwheels.com/system/car_generation_pictures/2873/original/Suzuki_Mehran_2012.jpg?1444111663" style="width:100%">
+  <h1>Suzuki Mehran</h1>
+  <p class="price">$100</p>
+</div>
+    </td>
+     <td>
+      <div class="card" data-name="Alto" data-price="150" data-id="1">
+  <img src="https://cache4.pakwheels.com/system/car_generation_pictures/6013/original/Suzuki_Alto_-_PNG.png?1635945100" style="width:100%">
+  <h1>Suzuki Alto</h1>
+  <p class="price">$150</p>
+</div>
+    </td>
+     <td>
+  </tr>
+</table>
+</div>
+
+<div id="three" class="tabcontent">
+  <h3>My Booked/Rented Products</h3>
+ <h1 align="center">Booked Products</h1>
+<table align="center">
+  <tr>
+    <td>
+      <div class="card">
+  <img src="https://cache2.pakwheels.com/system/car_generation_pictures/2873/original/Suzuki_Mehran_2012.jpg?1444111663" style="width:100%">
+  <h1>Suzuki Mehran</h1>
+  <p class="price">$100</p>
+</div>
+    </td>
+     <td>
+      <div class="card">
+  <img src="https://oils-finder.com/galery/350.jpg" style="width:100%">
+  <h1>Toyota Corolla</h1>
+  <p class="price">$200</p>
+</div>
+    </td>
+  </tr>
+</table>
+<h1 align="center">Rented Products</h1>
+
+<table align="center">
+  <tr>
+     <td>
+      <div class="card">
+  <img src="https://crdms.images.consumerreports.org/c_lfill,w_470,q_auto,f_auto/prod/cars/chrome/white/2021HOC020061_1280_01" style="width:100%">
+  <h1>Honda Civic</h1>
+  <p class="price">$250</p>
+</div>
+    </td>
+     <td>
+      <div class="card">
+  <img src="https://cache1.pakwheels.com/system/car_generation_pictures/5245/original/prado.jpg?1595594818" style="width:100%">
+  <h1>Toyota Prado</h1>
+  <p class="price">$300</p>
+</div>
+    </td>
+     <td>
+      <div class="card">
+  <img src="https://cache2.pakwheels.com/system/car_generation_pictures/6006/original/Revo_-_PNG.png?1635483853" style="width:100%">
+  <h1>Toyota Hilux</h1>
+  <p class="price">$400</p>
+</div>
+    </td>
+  </tr>
+</table>
+</div>
+
+<script src="Dashboard.js"></script>
+
+</body>
+</html>
